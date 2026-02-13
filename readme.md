@@ -58,11 +58,13 @@
 </p>
 
 <p align="center">
-  <img 
-    src="https://github.com/siddhesh2263/distributed-music-recommendation-system/blob/main/assets/007_activity_diagram.png?raw=true"
-    alt="Maven Lifecycle"
-    width="600"
-  />
+  <span style="background-color: white; display: inline-block; padding: 12px;">
+    <img 
+      src="https://github.com/siddhesh2263/distributed-music-recommendation-system/blob/main/assets/007_activity_diagram.jpg?raw=true"
+      alt="Activity Diagram"
+      width="600"
+    />
+  </span>
 </p>
 
 <p align="center">
