@@ -174,6 +174,7 @@ This deployment diagram illustrates the physical infrastructure of the distribut
 ## Credits
 
 ```
+Ruturaj Shitole
 Shaival Vora
 Sai Kumar Nekkanti
 Srinivas Ravindranath
