@@ -108,9 +108,8 @@ The diagram also models failure scenarios such as broker crashes or dispatcher n
 
 <p align="center">
   <img 
-    src="https://github.com/siddhesh2263/distributed-music-recommendation-system/blob/main/assets/001_sequence_diagram.png?raw=true"
+    src="https://github.com/siddhesh2263/distributed-music-recommendation-system/blob/main/assets/009_sequence_clear.png?raw=true"
     alt="Sequence"
-    width="800"
   />
 </p>
 
