@@ -20,7 +20,16 @@
 
 ## Project Overview
 
-This project presents the design of a scalable and fault tolerant distributed music recommendation system built around partitioned RNN and LSTM model inference. The architecture follows a client server model where users search songs or upload playlists through a web interface. Requests are routed through a load balancer to application servers, which publish inference tasks to Kafka topics. A dispatcher node partitions the neural network into sequential sub networks and distributes computation across multiple compute nodes. Kafka, coordinated by Zookeeper, enables asynchronous communication, topic partitioning, and broker replication. Kubernetes manages containerized services, monitors node health, and replaces failed instances to maintain availability. The system design addresses scalability through horizontal distribution of compute nodes and load balancing, and addresses failure handling through server replication and message queue redundancy. Performance comparison between traditional monolithic inference and distributed inference shows significant latency reduction under parallel execution.
+This project presents the design of a scalable and fault tolerant distributed music recommendation system built around partitioned RNN and LSTM model inference.
+
+<p align="center">
+  <img 
+    src="https://github.com/siddhesh2263/distributed-music-recommendation-system/blob/main/assets/project_overview.png?raw=true"
+    alt="Use Case"
+    width="400"
+  />
+</p>
+
 
 <br>
 
